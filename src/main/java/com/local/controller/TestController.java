@@ -18,4 +18,9 @@ public class TestController {
     public String hello() {
         return "Hello World Jenkins";
     }
+
+    @GetMapping("/hello1")
+    public String hello1() {
+        return "Hello World Jenkins1";
+    }
 }
